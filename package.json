@@ -1,0 +1,13 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "this is repository of data structure and algorithms",
+  "main": "index.ts",
+  "repository": "https://github.com/ranjankumarmandal",
+  "author": "Ranjan Kumar Mandal",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
