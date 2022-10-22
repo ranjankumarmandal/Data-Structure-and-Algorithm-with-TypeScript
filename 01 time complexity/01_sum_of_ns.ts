@@ -1,4 +1,4 @@
-// -------------- 1st approach ------------ time complexity = O(n)---
+// -------------- 1st approach ------------ time complexity = O(n)
 
 function sum1(n): void {
     let total = 0;
@@ -7,3 +7,13 @@ function sum1(n): void {
 }
 
 sum1(9);
+
+// --------------- 2nd approach ------------ time complexity = O(1)
+
+function sum2(n): void {
+    console.log(
+        n * (n + 1) / 2
+    );
+}
+
+sum2(12);
