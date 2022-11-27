@@ -20,9 +20,14 @@ function countChar1(str: String): Object {
 }
 
 function countChar(str: String): Object {
+    const result = {};
+    for(let i = 0; i < str.length; i++) {
+        if(result[str[i]] > 0) result[str[i]]++;
+        else result[str[i]] = 1;
+    }
 
-    return {};
+    return result;
 }
 
 countChar1('hello'); // {h: 1, e: 1, l: 2, o: 1}
-countChar('hello WorLd'); // {h: 1, e: 1, l: 3, o: 2, w: 1, d: 1}
+console.log(countChar('hello WorLd')); // {h: 1, e: 1, l: 3, o: 2, w: 1, d: 1}
