@@ -10,6 +10,11 @@
 */
 
 function countChar(str: String): Object {
+    // intialize an empty object
+    // start looping over string
+      // if object has key with related character of string, means it matching and coming again, increase its value with +1
+      // else assign that key with value 1
+    // return that resultant object
 
     return {};
 }
