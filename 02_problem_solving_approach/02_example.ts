@@ -9,7 +9,7 @@
  - Look back and refactor
 */
 
-function countChar1(str: String): Object {
+function countChar1(str: string): object {
     // intialize an empty object
     // start looping over string
       // if object has key with related character of string, means it matching and coming again, increase its value with +1
@@ -19,13 +19,13 @@ function countChar1(str: String): Object {
     return {};
 }
 
-function countChar(str: String): Object {
-    const result = {};
+function countChar(str: string): object {
+    const result: {[key: string]: number} = {};
     for(let char of str) {
         char = char.toLocaleLowerCase();
         if(/[a-z0-9]/.test(char)) result[char] = ++result[char] || 1;
     }
-    
+
     return result;
 }
 
