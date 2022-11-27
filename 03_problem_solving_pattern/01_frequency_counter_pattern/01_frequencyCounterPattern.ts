@@ -67,8 +67,22 @@ function same3(arr1: number[], arr2: number[]): boolean {
 }
 
 function same2(arr1: number[], arr2: number[]): boolean {
-    
-    return false;
+    if(arr1.length !== arr2.length) return false;
+    const frequencyCounterObject1: {[key: number]: number} = {};
+    const frequencyCounterObject2: {[key: number]: number} = {};
+
+    for(let value of arr1) {
+        frequencyCounterObject1[value] = ++frequencyCounterObject1[value] || 1;
+    }
+    for(let value of arr2) {
+        frequencyCounterObject2[value] = ++frequencyCounterObject2[value] || 1;
+    }
+
+    for(let key in frequencyCounterObject1) {
+        if(!(key ** 2 in frequencyCounterObject2)) return false;
+        if(frequencyCounterObject1[key] !== frequencyCounterObject2[key ** 2]) return false;
+    }
+    return true;
 }
 
 same2([1, 2, 3], [4, 1, 9]); // output - true
