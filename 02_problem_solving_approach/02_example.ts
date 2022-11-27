@@ -22,8 +22,9 @@ function countChar1(str: String): Object {
 function countChar(str: String): Object {
     const result = {};
     for(let i = 0; i < str.length; i++) {
-        if(result[str[i].toLocaleLowerCase()] > 0) result[str[i].toLocaleLowerCase()]++;
-        else result[str[i].toLocaleLowerCase()] = 1;
+        let char = str[i].toLocaleLowerCase();
+        if(result[char] > 0) result[char]++;
+        else result[char] = 1;
     }
 
     return result;
