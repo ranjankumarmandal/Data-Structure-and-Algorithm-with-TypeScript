@@ -14,7 +14,7 @@ Q. Why frequency counter pattern?
  - Look back & refactor
 */
 
-function same(arr1: number[], arr2: number[]): boolean {
+function same1(arr1: number[], arr2: number[]): boolean {
     // if frequency of both array not same, return false
 
     // loop over arr1
@@ -23,8 +23,15 @@ function same(arr1: number[], arr2: number[]): boolean {
       // remove element at index of arr2
 
     // return true
+
+    return false;
 }
 
-same([1, 2, 3], [4, 1, 9]); // output - true
+function same(arr1: number[], arr2: number[]): boolean {
+    
+    return false;
+}
+
+same1([1, 2, 3], [4, 1, 9]); // output - true
 same([1, 2, 3],  [1, 1, 9, 4]); // false
 same([1, 2, 3], [1, 12, 9]); // false
