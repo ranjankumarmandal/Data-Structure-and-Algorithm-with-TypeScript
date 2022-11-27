@@ -1,4 +1,4 @@
-// Problem - Count the number of letters present in a given string
+// Problem - Count the number of letters present in a given string [hint - do it only for alpanumerics]
 
 /*
  Problem Solving Approach -
