@@ -15,8 +15,14 @@ Q. Why frequency counter pattern?
 */
 
 function same(arr1: number[], arr2: number[]): boolean {
+    // if frequency of both array not same, return false
 
-    return false;
+    // loop over arr1
+      // find index = arr2.indexOf(arr1[i] ** 2)
+      // if index doesn't exist, return false
+      // remove element at index of arr2
+
+    // return true
 }
 
 same([1, 2, 3], [4, 1, 9]); // output - true
