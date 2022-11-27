@@ -13,3 +13,7 @@ Q. Why frequency counter pattern?
  - Solve / simplify
  - Look back & refactor
 */
+
+same([1, 2, 3], [4, 1, 9]); // output - true
+same([1, 2, 3],  [1, 1, 9, 4]); // false
+same([1, 2, 3], [1, 12, 9]); // false
