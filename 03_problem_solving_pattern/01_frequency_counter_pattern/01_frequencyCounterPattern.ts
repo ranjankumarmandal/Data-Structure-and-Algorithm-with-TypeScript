@@ -5,3 +5,11 @@ Q. Why frequency counter pattern?
 
 // Problem - 2 arrays given, where 2nd containes the same value but squared with the 1st one. [hint - same frequency is going to be there]
 
+/*
+ Problem Solving Approach -
+ - Understand the problem
+ - Explore concrete examples
+ - Break it down
+ - Solve / simplify
+ - Look back & refactor
+*/
