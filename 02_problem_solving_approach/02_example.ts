@@ -21,14 +21,11 @@ function countChar1(str: String): Object {
 
 function countChar(str: String): Object {
     const result = {};
-    for(let i = 0; i < str.length; i++) {
-        let char = str[i].toLocaleLowerCase();
-        if(/[a-z0-9]/.test(char)){
-            if(result[char] > 0) result[char]++;
-            else result[char] = 1;
-        }
+    for(let char of str) {
+        char = char.toLocaleLowerCase();
+        if(/[a-z0-9]/.test(char)) result[char] = ++result[char] || 1;
     }
-
+    
     return result;
 }
 
