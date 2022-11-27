@@ -14,7 +14,7 @@ Q. Why frequency counter pattern?
  - Look back & refactor
 */
 
-// --------------------------------------- Novice Approach -------------------------
+// --------------------------------------- Novice Approach -------------------------O(n ** 2)------
 
 function same1(arr1: number[], arr2: number[]): boolean {
     // if frequency of both array not same, return false
@@ -45,7 +45,7 @@ same1([1, 2, 3], [4, 1, 9]); // output - true
 same([1, 2, 3],  [1, 1, 9, 4]); // false
 same([1, 2, 3], [1, 12, 9]); // false
 
-// ----------------------------------------- Refactored Solution ------------------
+// ----------------------------------------- Refactored Solution ------------------O(n)-------------optimized wrt above----
 /*
  Problem solving approach - 
  - Understand the problem
