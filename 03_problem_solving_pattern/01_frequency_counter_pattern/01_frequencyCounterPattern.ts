@@ -46,3 +46,11 @@ same([1, 2, 3],  [1, 1, 9, 4]); // false
 same([1, 2, 3], [1, 12, 9]); // false
 
 // ----------------------------------------- Refactored Solution ------------------
+/*
+ Problem solving approach - 
+ - Understand the problem
+ - Explore concrete examples
+ - Break it down
+ - Solve / simplify
+ - Look back & refactor
+*/
