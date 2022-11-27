@@ -14,6 +14,8 @@ Q. Why frequency counter pattern?
  - Look back & refactor
 */
 
+// --------------------------------------- Novice Approach -------------------------
+
 function same1(arr1: number[], arr2: number[]): boolean {
     // if frequency of both array not same, return false
 
@@ -28,8 +30,15 @@ function same1(arr1: number[], arr2: number[]): boolean {
 }
 
 function same(arr1: number[], arr2: number[]): boolean {
+    if(arr1.length !== arr2.length) return false;
+
+    for(let i = 0; i < arr1.length; i++) {
+        let index = arr2.indexOf(arr1[i] ** 2);
+        if(index === -1) return false;
+        arr2.splice(index, 1);
+    }
     
-    return false;
+    return true;
 }
 
 same1([1, 2, 3], [4, 1, 9]); // output - true
