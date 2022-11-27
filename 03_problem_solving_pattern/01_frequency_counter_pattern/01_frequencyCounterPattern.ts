@@ -79,8 +79,9 @@ function same2(arr1: number[], arr2: number[]): boolean {
     }
 
     for(let key in frequencyCounterObject1) {
-        if(!(key ** 2 in frequencyCounterObject2)) return false;
-        if(frequencyCounterObject1[key] !== frequencyCounterObject2[key ** 2]) return false;
+        let a: number = Number(key);
+        if(!(a ** 2 in frequencyCounterObject2)) return false;
+        if(frequencyCounterObject1[key] !== frequencyCounterObject2[a ** 2]) return false;
     }
     return true;
 }
