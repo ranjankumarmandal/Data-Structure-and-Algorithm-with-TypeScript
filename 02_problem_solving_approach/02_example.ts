@@ -9,5 +9,10 @@
  - Look back and refactor
 */
 
+function countChar(str: String): Object {
+
+    return {};
+}
+
 countChar('hello'); // {h: 1, e: 1, l: 2, o: 1}
 countChar('hello WorLd'); // {h: 1, e: 1, l: 3, o: 2, w: 1, d: 1}
