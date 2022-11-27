@@ -54,3 +54,11 @@ same([1, 2, 3], [1, 12, 9]); // false
  - Solve / simplify
  - Look back & refactor
 */
+
+function same2(arr1: number[], arr2: number[]): boolean {
+    
+    return false;
+}
+
+same2([1, 2, 3], [4, 1, 9]); // output - true
+same2([1, 2, 3],  [1, 1, 9, 4]); // false
