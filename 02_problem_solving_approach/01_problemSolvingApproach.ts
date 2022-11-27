@@ -5,4 +5,5 @@
   2. Explore concrete examples
   3. Break it down
   4. Solve / Simplify
+  5. Look back & refactor
 */
