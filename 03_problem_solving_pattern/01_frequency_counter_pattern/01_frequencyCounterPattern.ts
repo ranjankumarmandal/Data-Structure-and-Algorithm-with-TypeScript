@@ -56,7 +56,13 @@ same([1, 2, 3], [1, 12, 9]); // false
 */
 
 function same2(arr1: number[], arr2: number[]): boolean {
-    
+    // check if frequency of both array are not same, return false;
+    // create two freq counter objects for each arrays ie, freq1, freq2
+    // loop over key in freq1
+      // if key ** 2 in freq2 not there, return false;
+      // if value of freq2[key ** 2] not equal freq1[key], return false
+    // return true
+
     return false;
 }
 
