@@ -11,7 +11,12 @@
 */
 
 function checkAnagram(str1: string, str2: string): boolean {
-    
+    // check if length of both string not same, return false
+    // create two freqCounterObject for each string - freq1, freq2
+    // loop over freq1 with key
+      // check if key does not exist in freq2, return false
+      // check if value for key does not exist same in freq2, return false
+    // return true
 
     return false;
 }
