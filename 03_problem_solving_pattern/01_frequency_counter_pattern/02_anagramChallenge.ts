@@ -43,4 +43,6 @@ function checkAnagram(str1: string, str2: string): boolean {
 
 checkAnagram('hello', 'ollhe'); // output - true
 checkAnagram1('aaz', 'za'); // false
-checkAnagram('aaz', 'azaz'); // false
+console.log(checkAnagram('aaz', 'azaz')); // false
+
+// solution has been done using frequency counter pattern and we can see, time complexity is only O(n). its optimized solution.
