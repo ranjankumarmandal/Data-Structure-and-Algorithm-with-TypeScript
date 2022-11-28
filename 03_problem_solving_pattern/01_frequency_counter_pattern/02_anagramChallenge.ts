@@ -10,7 +10,7 @@
  - Look back & refactor
 */
 
-function checkAnagram(str1: string, str2: string): boolean {
+function checkAnagram1(str1: string, str2: string): boolean {
     // check if length of both string not same, return false
     // create two freqCounterObject for each string - freq1, freq2
     // loop over freq1 with key
@@ -21,6 +21,12 @@ function checkAnagram(str1: string, str2: string): boolean {
     return false;
 }
 
+function checkAnagram(str1: string, str2: string): boolean {
+    
+
+    return false;
+}
+
 checkAnagram('hello', 'ollhe'); // output - true
-checkAnagram('aaz', 'za'); // false
+checkAnagram1('aaz', 'za'); // false
 checkAnagram('aaz', 'azaz'); // false
