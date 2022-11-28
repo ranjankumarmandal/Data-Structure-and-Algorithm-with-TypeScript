@@ -10,6 +10,12 @@
  - Look back & refactor
 */
 
+function checkAnagram(str1: string, str2: string): boolean {
+    
+
+    return false;
+}
+
 checkAnagram('hello', 'ollhe'); // output - true
-checkAnagam('aaz', 'za'); // false
+checkAnagram('aaz', 'za'); // false
 checkAnagram('aaz', 'azaz'); // false
