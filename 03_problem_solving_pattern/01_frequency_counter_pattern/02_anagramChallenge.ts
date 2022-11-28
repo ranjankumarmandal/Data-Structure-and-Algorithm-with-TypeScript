@@ -9,3 +9,7 @@
  - Solve / simplify
  - Look back & refactor
 */
+
+checkAnagram('hello', 'ollhe'); // output - true
+checkAnagam('aaz', 'za'); // false
+checkAnagram('aaz', 'azaz'); // false
