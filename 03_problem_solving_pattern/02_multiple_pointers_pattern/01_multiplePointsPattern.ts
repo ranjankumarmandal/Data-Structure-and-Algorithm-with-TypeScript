@@ -3,6 +3,8 @@
 
 // problem - write a function which accepts a sorted array of integers. It should find the first pair where the sum is 0. Return an array that includes both values that sum to zero or undefindd if a pair does not exist.
 
+// ---------------------------------- Naive Solution ---------------- Time complexity = O(n ** 2)
+
 /*
  Problem Solving Approach -
  - Understand the problem
