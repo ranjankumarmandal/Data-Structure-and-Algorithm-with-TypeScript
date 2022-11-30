@@ -13,17 +13,20 @@
 */
 
 function sumZero1(arr: number[]): number[] | undefined {
-    // create a result empty array
     // loop over arr with index i
       // loop over with j = i+1 && j < arr.length
         // compare arr[i] with arr[j], if sum is 0, return [arr[i], arr[j]]
-        // else return undefined
+    // else return undefined
     return [];
 }
 
 function sumZero(arr: number[]): number[] | undefined {
-
-    return [];
+    for(let i = 0; i < arr.length; i++) {
+        for(let j = i + 1; j < arr.length; j++) {
+            if(arr[i] + arr[j] === 0) return [arr[i], arr[j]];
+        }
+    }
+    return undefined;
 }
 
 sumZero([-3, -2, -1, 0, 1, 2, 3]); // output - [-3, 3]
