@@ -13,7 +13,11 @@
 */
 
 function sumZero(arr: number[]): number[] | undefined {
-    
+    // create a result empty array
+    // loop over arr with index i
+      // loop over with j = i+1 && j < arr.length
+        // compare arr[i] with arr[j], if sum is 0, return [arr[i], arr[j]]
+        // else return undefined
     return [];
 }
 
