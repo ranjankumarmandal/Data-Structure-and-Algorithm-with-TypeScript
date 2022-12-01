@@ -46,6 +46,13 @@ function sumZero3(arr: number[]): number[] | undefined {
 }
 
 function sumZero(arr: number[]): number[] | undefined {
+    let left = 0, right = arr.length - 1;
+    while(left < right) {
+        let sum = arr[left] + arr[right];
+        if(sum === 0) return [arr[left], arr[right]];
+        else if(sum < 0) left = left + 1;
+        else if(sum > 0) right = right - 1;
+    }
 
     return undefined;
 }
