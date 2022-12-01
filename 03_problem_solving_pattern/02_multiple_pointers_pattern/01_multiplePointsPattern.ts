@@ -34,6 +34,13 @@ function sumZero2(arr: number[]): number[] | undefined {
 // --------------------------------------- Oprimized solution with Multiple Pointer Pattern ------ Time complexity only O(n) ----------
 
 function sumZero3(arr: number[]): number[] | undefined {
+    // Create two pointer varibale left = 0, right = arr.length - 1
+    // Loop while left < right
+      // let sum = left + right
+      // check if sum === 0, return [arr[left], arr[right]]
+      // else if sum < 0, left = left + 1
+      // else if sum > 0, right = right + 1
+    // return undefined
 
     return undefined;
 }
