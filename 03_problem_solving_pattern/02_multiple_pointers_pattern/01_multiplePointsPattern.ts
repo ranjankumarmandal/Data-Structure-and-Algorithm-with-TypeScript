@@ -36,7 +36,7 @@ function sumZero2(arr: number[]): number[] | undefined {
 function sumZero3(arr: number[]): number[] | undefined {
     // Create two pointer varibale left = 0, right = arr.length - 1
     // Loop while left < right
-      // let sum = left + right
+      // let sum = arr[left] + arr[right]
       // check if sum === 0, return [arr[left], arr[right]]
       // else if sum < 0, left = left + 1
       // else if sum > 0, right = right + 1
