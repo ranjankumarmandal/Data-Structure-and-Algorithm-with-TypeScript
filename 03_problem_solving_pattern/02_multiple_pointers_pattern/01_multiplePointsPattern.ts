@@ -33,7 +33,10 @@ function sumZero2(arr: number[]): number[] | undefined {
 
 // --------------------------------------- Oprimized solution with Multiple Pointer Pattern ------ Time complexity only O(n) ----------
 
+function sumZero3(arr: number[]): number[] | undefined {
 
+    return undefined;
+}
 
 sumZero([-3, -2, -1, 0, 1, 2, 3]); // output - [-3, 3]
 sumZero([-2, 0, 1, 3]); // undefined
