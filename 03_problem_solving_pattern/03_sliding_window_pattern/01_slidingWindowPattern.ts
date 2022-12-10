@@ -12,7 +12,7 @@ problem solving approach -
 - Look back & refactor
 */
 
-function maxSubArraySum(arr: number[], n: number): number {
+function maxSubArraySum1(arr: number[], n: number): number {
     // let maxSum = 0
     // loop over arr with i
       // let temp = 0;
@@ -20,6 +20,11 @@ function maxSubArraySum(arr: number[], n: number): number {
         // temp = temp + arr[j]
         // maxSum = Math.max(temp, max)
     // return max
+    return 1;
+}
+
+function maxSubArraySum(arr: number[], number): number {
+
     return 1;
 }
 
