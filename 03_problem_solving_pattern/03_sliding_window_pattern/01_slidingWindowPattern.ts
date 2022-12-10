@@ -11,3 +11,7 @@ problem solving approach -
 - Solve / simplify
 - Look back & refactor
 */
+
+maxSubArraySum([1, 2, , 2, 8, 1, 5]); // output - 10
+maxSubArraySum([1, 2, 52, 8, 1, 5], 4); // 17
+maxSubArraySum([], 4); // null
