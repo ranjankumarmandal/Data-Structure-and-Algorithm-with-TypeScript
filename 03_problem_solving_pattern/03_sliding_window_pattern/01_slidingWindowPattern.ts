@@ -32,15 +32,15 @@ function maxSubArraySum2(arr: number[], n: number): number | null {
         let temp = 0;
         for(let j = i; j < n + i; j++) {
             temp = temp + arr[j];
-            if(maxSum < temp) maxSum = temp;
         }
+        if(maxSum < temp) maxSum = temp;
     }
     return maxSum;
 }
 
 
 
-// ------ Sliding Window pattern --------- time complexity O(n) ------------
+// ------ Sliding Window pattern --------- time complexity O(n) --------------
 
 /*
 Applying sliding window technique : 
