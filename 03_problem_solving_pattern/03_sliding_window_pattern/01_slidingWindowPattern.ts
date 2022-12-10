@@ -12,6 +12,11 @@ problem solving approach -
 - Look back & refactor
 */
 
-maxSubArraySum([1, 2, , 2, 8, 1, 5]); // output - 10
+function maxSubArraySum(arr: number[], n: number): number {
+
+    return 1;
+}
+
+maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 2); // output - 10
 maxSubArraySum([1, 2, 52, 8, 1, 5], 4); // 17
 maxSubArraySum([], 4); // null
