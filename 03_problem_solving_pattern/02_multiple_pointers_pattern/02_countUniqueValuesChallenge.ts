@@ -1,5 +1,7 @@
 // Q. Write a function which acepts a sorted array, and counts the unique values in the array. There can be negative numbers in the array, but it will always be sorted.
 
+// Pattern - multiple pointers patter - time complexity O(n) -----------
+
 /* 
 Problem solving approach - 
 - Understand the problem
@@ -23,8 +25,16 @@ function countUniqueValues1(arr: number[]): number {
 function countUniqueValues(arr: number[]): number {
     let x = 0, y = 1;
     let count = 0;
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] === arr[i + 1]) y = y + 1;
+        else {
+            x = y;
+            y = y + 1;
+            count = count + 1;
+        }
+    }
 
-    return ;
+    return count;
 }
 
 countUniqueValues([1, 1, 1, 1, 2]); // output - 2
