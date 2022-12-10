@@ -10,7 +10,13 @@ Problem solving approach -
 */
 
 function countUniqueValues(arr: number[]): number {
-    
+    // create two pointers x = 0, y = 1
+    // create a counter count = 0
+    // loop over arr
+      // move y = y + 1 if arr[i] === arr[i + 1]
+      // count = count + 1
+      // else x = y & y = y + 1
+    // return count
     return 2;
 }
 
