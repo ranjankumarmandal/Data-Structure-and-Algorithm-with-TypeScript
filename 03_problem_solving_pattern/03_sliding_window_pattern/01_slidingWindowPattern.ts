@@ -5,4 +5,9 @@
 
 /*
 problem solving approach -
+- Understand the problem
+- Explore concrete examples
+- Break it down
+- Solve / simplify
+- Look back & refactor
 */
