@@ -44,3 +44,11 @@ maxSubArraySum([], 4); // null
 
 
 // ------ Sliding Window pattern --------- time complexity O(n) ------------
+
+/*
+Applying sliding window technique : 
+
+We compute the sum of first k elements out of n terms using a linear loop and store the sum in variable window_sum.
+Then we will graze linearly over the array till it reaches the end and simultaneously keep track of maximum sum.
+To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
+*/
