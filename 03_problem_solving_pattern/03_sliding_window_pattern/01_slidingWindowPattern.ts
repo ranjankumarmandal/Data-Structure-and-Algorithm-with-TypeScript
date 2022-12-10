@@ -20,7 +20,7 @@ function maxSubArraySum1(arr: number[], n: number): number {
       // let temp = 0;
       // loop over arr with j = i; j < num + i
         // temp = temp + arr[j]
-        // maxSum = Math.max(temp, max)
+      // maxSum = Math.max(temp, max)
     // return max
     return 1;
 }
@@ -73,8 +73,19 @@ function maxSubArraySum3(arr: number[], n: number): number | null {
 }
 
 function maxSubArraySum(arr: number[], n: number): number | null {
+    if(arr.length < n) return null;
+    let maxSum = -Infinity;
+    for(let i = 0; i < n; i++) {
+        maxSum = maxSum + arr[i];
+    }
 
-    return 1;
+    let temp = maxSum;
+    for(let i = n; i < arr.length; i++) {
+        temp = temp - arr[i - n] + arr[i];
+        if(maxSum < temp) maxSum = temp;
+    }
+
+    return maxSum;
 }
 
 
