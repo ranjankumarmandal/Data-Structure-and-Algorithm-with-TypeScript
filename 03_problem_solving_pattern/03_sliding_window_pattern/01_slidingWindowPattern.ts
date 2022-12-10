@@ -23,11 +23,19 @@ function maxSubArraySum1(arr: number[], n: number): number {
     return 1;
 }
 
-function maxSubArraySum(arr: number[], number): number {
-
-    return 1;
+function maxSubArraySum(arr: number[], n: number): number | null {
+    if(n > arr.length) return null;
+    let maxSum = -Infinity;
+    for(let i = 0; i < arr.length; i++) {
+        let temp = 0;
+        for(let j = i; j < n + i; j++) {
+            temp = temp + arr[j];
+            if(maxSum < temp) maxSum = temp;
+        }
+    }
+    return maxSum;
 }
 
 maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 2); // output - 10
-maxSubArraySum([1, 2, 52, 8, 1, 5], 4); // 17
+maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 4); // 17
 maxSubArraySum([], 4); // null
