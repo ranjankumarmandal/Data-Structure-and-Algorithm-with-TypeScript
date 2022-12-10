@@ -60,6 +60,14 @@ Problem solving approach -
 */
 
 function maxSubArraySum(arr: number[], n: number): number | null {
+    // if n > arr.length, return null
+    // let maxSum = -infinite
+    // loop over arr from 0 to < n, and assign sum of element to maxSum
+    // let temp = maxSum
+    // loop over arr with i from n to arr.length
+      // temp = temp - arr[i - n] + arr[i]
+      // if maxSum < temp, maxSum = temp
+    // return maxSum
 
     return 1;
 }
