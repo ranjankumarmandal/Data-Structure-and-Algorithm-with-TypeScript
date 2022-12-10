@@ -20,6 +20,13 @@ function countUniqueValues1(arr: number[]): number {
     return 2;
 }
 
+function countUniqueValues(arr: number[]): number {
+    let x = 0, y = 1;
+    let count = 0;
+
+    return ;
+}
+
 countUniqueValues([1, 1, 1, 1, 2]); // output - 2
 countUniqueValues([-1, 1, 1, 2, 3, 3, 4, 5, 6]); // 7
 countUniqueValues([]); // 0
