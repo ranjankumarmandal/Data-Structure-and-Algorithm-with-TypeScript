@@ -9,7 +9,7 @@ Problem solving approach -
 - Look back & refactor 
 */
 
-function countUniqueValues(arr: number[]): number {
+function countUniqueValues1(arr: number[]): number {
     // create two pointers x = 0, y = 1
     // create a counter count = 0
     // loop over arr
