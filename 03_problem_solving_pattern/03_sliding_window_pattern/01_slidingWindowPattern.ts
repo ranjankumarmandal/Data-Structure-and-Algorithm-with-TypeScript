@@ -25,7 +25,7 @@ function maxSubArraySum1(arr: number[], n: number): number {
     return 1;
 }
 
-function maxSubArraySum(arr: number[], n: number): number | null {
+function maxSubArraySum2(arr: number[], n: number): number | null {
     if(n > arr.length) return null;
     let maxSum = -Infinity;
     for(let i = 0; i < arr.length; i++) {
@@ -38,9 +38,6 @@ function maxSubArraySum(arr: number[], n: number): number | null {
     return maxSum;
 }
 
-maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 2); // output - 10
-maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 4); // 17
-maxSubArraySum([], 4); // null
 
 
 // ------ Sliding Window pattern --------- time complexity O(n) ------------
@@ -51,4 +48,13 @@ Applying sliding window technique :
 We compute the sum of first k elements out of n terms using a linear loop and store the sum in variable window_sum.
 Then we will graze linearly over the array till it reaches the end and simultaneously keep track of maximum sum.
 To get the current sum of block of k elements just subtract the first element from the previous block and add the last element of the current block .
+*/
+
+/* 
+Problem solving approach -
+- Understand the problem
+- Explore concrete examples
+- Break it down
+- Solve / simplify
+- Look back & refactor
 */
