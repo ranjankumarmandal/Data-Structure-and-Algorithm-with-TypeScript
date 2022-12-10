@@ -8,3 +8,7 @@ Problem solving approach -
 - Solve / simplify
 - Look back & refactor 
 */
+
+countUniqueValues([1, 1, 1, 1, 2]); // output - 2
+countUniqueValues([-1, 1, 1, 2, 3, 3, 4, 5, 6]); // 7
+countUniqueValues([]); // 0
