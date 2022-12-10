@@ -13,7 +13,13 @@ problem solving approach -
 */
 
 function maxSubArraySum(arr: number[], n: number): number {
-
+    // let maxSum = 0
+    // loop over arr with i
+      // let temp = 0;
+      // loop over arr with j = i; j < num + i
+        // temp = temp + arr[j]
+        // maxSum = Math.max(temp, max)
+    // return max
     return 1;
 }
 
