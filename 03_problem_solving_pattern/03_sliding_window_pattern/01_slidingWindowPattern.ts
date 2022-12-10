@@ -40,7 +40,7 @@ function maxSubArraySum2(arr: number[], n: number): number | null {
 
 
 
-// ------ Sliding Window pattern --------- time complexity O(n) --------------
+// ------ Sliding Window pattern --------- time complexity O(n) -----------------
 
 /*
 Applying sliding window technique : 
