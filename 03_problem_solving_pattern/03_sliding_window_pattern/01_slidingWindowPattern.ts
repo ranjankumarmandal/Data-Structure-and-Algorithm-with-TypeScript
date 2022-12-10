@@ -59,6 +59,11 @@ Problem solving approach -
 - Look back & refactor
 */
 
+function maxSubArraySum(arr: number[], n: number): number | null {
+
+    return 1;
+}
+
 
 
 
