@@ -3,6 +3,8 @@
 
 // Q. Write a function which accepts an array of integers and a number called n. This should calculate the maximum sum of n consecutive elements in the array.
 
+// ----------- Naive or Brute force approach -------- time complexity O(n ** 2) -------
+
 /*
 problem solving approach -
 - Understand the problem
