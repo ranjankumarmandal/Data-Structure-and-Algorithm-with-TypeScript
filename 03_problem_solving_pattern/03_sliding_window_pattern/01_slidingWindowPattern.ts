@@ -59,7 +59,7 @@ Problem solving approach -
 - Look back & refactor
 */
 
-function maxSubArraySum(arr: number[], n: number): number | null {
+function maxSubArraySum3(arr: number[], n: number): number | null {
     // if n > arr.length, return null
     // let maxSum = -infinite
     // loop over arr from 0 to < n, and assign sum of element to maxSum
@@ -72,7 +72,10 @@ function maxSubArraySum(arr: number[], n: number): number | null {
     return 1;
 }
 
+function maxSubArraySum(arr: number[], n: number): number | null {
 
+    return 1;
+}
 
 
 maxSubArraySum([1, 2, 5, 2, 8, 1, 5], 2); // output - 10
