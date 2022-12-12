@@ -22,7 +22,7 @@ function search1(arr: number[], k: number): number {
     return 1;
 }
 
-function search(arr: number[], k: number): number {
+function search2(arr: number[], k: number): number {
     for(let i = 0; i < arr.length; i++) {
         if(arr[i] === k) return i;
     }
@@ -41,6 +41,11 @@ Problem solving appraoch -
 - Solve / simplify
 - Look back & refactor
 */
+
+function search(arr: number[], k: number): number {
+
+    return 1;
+}
 
 search([1, 2, 3, 4, 5, 6], 4); // output- 3
 search([1, 2, 3, 4, 5, 6], 6); // 5
