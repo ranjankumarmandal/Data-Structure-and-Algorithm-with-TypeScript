@@ -13,6 +13,9 @@ Problem Solving Approach -
 */
 
 function search(arr: number[], k: number): number {
+    // loop over arr with i
+      // if arr[i] === k, return i
+    // return -1
 
     return 1;
 }
