@@ -43,6 +43,13 @@ Problem solving appraoch -
 */
 
 function search(arr: number[], k: number): number {
+    // let l = 0, r = arr.length - 1
+    // loop over arr when l <= r
+      // let m = Math.floor((l + r)  / 2)
+      // if k > arr[m], l = m + 1
+      // else if k < arr[m], r = m - 1
+      // else return m
+    // return -1
 
     return 1;
 }
