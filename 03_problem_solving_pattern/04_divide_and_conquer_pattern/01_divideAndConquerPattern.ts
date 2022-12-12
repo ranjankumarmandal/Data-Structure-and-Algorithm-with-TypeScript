@@ -30,6 +30,11 @@ function search(arr: number[], k: number): number {
     return -1;
 }
 
+
+// ---------- Divide and conquer pattern - Binary search - O(logn) -----------
+
+
+
 search([1, 2, 3, 4, 5, 6], 4); // output - 3
 search([1, 2, 3, 4, 5, 6], 6); // 5
 search([1, 2, 3, 4, 5, 6], 11); // -1
