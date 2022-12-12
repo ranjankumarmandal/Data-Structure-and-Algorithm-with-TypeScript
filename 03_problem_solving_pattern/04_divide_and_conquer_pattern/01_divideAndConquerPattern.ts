@@ -55,10 +55,17 @@ function search3(arr: number[], k: number): number {
 }
 
 function search(arr: number[], k: number): number {
+    let l = 0, r = arr.length - 1;
+    while (l <= r) {
+        let m = Math.floor((l + r) / 2);
+        if(k > arr[m]) l = m + 1;
+        else if(k < arr[m]) r = m - 1;
+        else return m;
+    }
 
-    return 1;
+    return -1;
 }
 
-search([1, 2, 3, 4, 5, 6], 4); // output- 3
-search([1, 2, 3, 4, 5, 6], 6); // 5
-search([1, 2, 3, 4, 5, 6], 11); // -1
+search([1, 2, 3, 4, 5, 6], 4); 
+search([1, 2, 3, 4, 5, 6], 6); 
+search([1, 2, 3, 4, 5, 6], 11); 
