@@ -35,6 +35,11 @@ function search(arr: number[], k: number): number {
 
 /*
 Problem solving appraoch -
+- Understand the problem
+- Explore concrete examples
+- Break it down
+- Solve / simplify
+- Look back & refactor
 */
 
 search([1, 2, 3, 4, 5, 6], 4); // output - 3
