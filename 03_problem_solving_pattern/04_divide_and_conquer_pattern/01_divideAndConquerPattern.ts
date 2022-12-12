@@ -42,7 +42,7 @@ Problem solving appraoch -
 - Look back & refactor
 */
 
-function search(arr: number[], k: number): number {
+function search3(arr: number[], k: number): number {
     // let l = 0, r = arr.length - 1
     // loop over arr when l <= r
       // let m = Math.floor((l + r)  / 2)
@@ -50,6 +50,11 @@ function search(arr: number[], k: number): number {
       // else if k < arr[m], r = m - 1
       // else return m
     // return -1
+
+    return 1;
+}
+
+function search(arr: number[], k: number): number {
 
     return 1;
 }
