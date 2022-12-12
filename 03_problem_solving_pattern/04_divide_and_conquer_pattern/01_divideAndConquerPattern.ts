@@ -12,10 +12,15 @@ Problem Solving Approach -
 - Look back & refactor
 */
 
-function search(arr: number[], k: number): number {
+function search1(arr: number[], k: number): number {
     // loop over arr with i
       // if arr[i] === k, return i
     // return -1
+
+    return 1;
+}
+
+function search(arr: number[], k: number): number {
 
     return 1;
 }
