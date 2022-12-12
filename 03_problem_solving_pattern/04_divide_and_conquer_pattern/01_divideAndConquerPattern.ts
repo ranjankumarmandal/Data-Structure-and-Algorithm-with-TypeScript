@@ -3,3 +3,6 @@
 
 // Q. Given a sorted array of integers, write a function called search that accepts  value and returns the index where the value passed to the function is located. If the values is not found, rethrn -1.
 
+/*
+Problem Solving Approach -
+*/
