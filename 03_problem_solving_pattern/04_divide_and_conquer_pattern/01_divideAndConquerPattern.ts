@@ -21,8 +21,11 @@ function search1(arr: number[], k: number): number {
 }
 
 function search(arr: number[], k: number): number {
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] === k) return i;
+    }
 
-    return 1;
+    return -1;
 }
 
 search([1, 2, 3, 4, 5, 6], 4); // output - 3
